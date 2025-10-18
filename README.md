@@ -17,6 +17,11 @@ THIS SOFTWARE IS A SATIRICAL PROJECT THAT AIMS TO RAISE AWARENESS OF THE GLOBALI
 
 # The Digital Exploitation Model
 
+![License](https://img.shields.io/badge/License-Unlicense-blue.svg) ![Users](https://img.shields.io/badge/Talent%20Acquisition%20Pipeline-9000%2B-ff3366.svg) ![ROI](https://img.shields.io/badge/Estimated%20ROI-1200%25-brightgreen.svg) ![Compliance](https://img.shields.io/badge/Regulatory%20Compliance-L3%20Optimized-yellow.svg)
+
+<img width="521" height="504" alt="overjob0" src="https://github.com/user-attachments/assets/0ec96912-75d2-419b-abd1-9c3324861597" />
+
+
 The code in the src/ directory simulates an application framework built for aggressive monetization through two primary mechanisms:
 
 Mass-Produced, Ad-Saturated Apps: The application's UI is overloaded with intentionally poorly-optimized and numerous advertisements (HTML, CSS, JavaScript) that consume resources and degrade the user experience.
@@ -29,6 +34,17 @@ Modern tech culture is often resistant to constructive criticism. Specifically w
 
 ### Stated Corporate Ideal,Hidden Reality and Critique
 
-"""Equal, Fair, Unbiased Community""","The reality of recruitment, staffing, and talent acquisition firms that serve shadowy backroom investors, manipulating the concept of an 'Open Source' community to enforce a de facto social credit score system for talent."
-"""Free and Fair Market Economy""","The integration of major global financial boards (such as Tencent, Alibaba, and similar investment groups) into development, engineering, and web integration teams, where the sole driving force is maximizing profit margins over user support and ethical development."
+"""Equal, Fair, Unbiased Community"""" ⚖️
 
+The dark underbelly of recruitment, staffing, and talent acquisition firms that serve shadowy backroom investors, manipulating the concept of an 'Open Source' community to enforce a de facto social credit score system for talent.
+
+"""Free and Fair Market Economy"""" 💰
+
+The integration of major global financial boards (such as Tencent, Alibaba, and similar investment groups) into development, engineering, and web integration teams, where the sole driving force is maximizing profit margins over user support and ethical development.
+
+### `setup.py`
+
+`git clone https://github.com/TheProdigyLeague/Market.git`
+`cd market`
+
+`py yourserverhere.py`
