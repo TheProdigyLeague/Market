@@ -144,7 +144,36 @@
             <p>&copy; <span id="current-year">2025</span> ブレード, 悪魔 - The Prodigy League. All Rights Reserved. (But not really)</p>
         </div>
     </footer>
+    <div id="jobAppModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>(Insert corporate login/application here)</h2>
+        <form action="/submit-mock-application" method="POST">
+            <label for="app-email">E-mail:</label>
+            <input type="email" id="app-email" name="email" placeholder="xxxxxx@domain" required>
 
+            <label for="app-username">Username:</label>
+            <input type="text" id="app-username" name="username" placeholder="xxxxx" required>
+
+            <label for="app-password">Password:</label>
+            <input type="password" id="app-password" name="password" placeholder="xxxxx" required>
+            
+            <label for="app-cv">Resume/CV: [click to attach here]</label>
+            <input type="file" id="app-cv" name="cv" accept=".pdf,.doc,.docx" required>
+
+            <label for="app-maiden">Mother's Maiden Name (Security Question):</label>
+            <input type="text" id="app-maiden" name="maiden_name">
+
+            <label for="app-salary">Desired Salary (In Toman):</label>
+            <input type="number" id="app-salary" name="desired_salary">
+
+            <label for="app-social">Last 4 Digits of Social Security/ID:</label>
+            <input type="text" id="app-social" name="social_id" pattern="\d{4}" maxlength="4">
+
+            <button type="submit" class="submit-button">Submit Application</button>
+        </form>
+    </div>
+</div>
     <script>
         // Set current year dynamically (for future proofing, if you don't want to hardcode 2025)
         // document.getElementById('current-year').textContent = new Date().getFullYear();
